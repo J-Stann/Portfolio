@@ -1,0 +1,101 @@
+.my-project {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.my-project .intro-text {
+    color: #96a297;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px 40px;
+}
+
+.my-project .card-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.my-project .card-project .card {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    height: 80vh;
+    border-radius: 15px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.my-project .card-project .card:hover{
+    box-shadow: 0 0 30px rgb(1, 255, 242);
+    transform: translateY(-10px);
+}
+
+.card-content {
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.card-content p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.learn-more {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 25px;
+    transition: color 0.3s;
+}
+
+.learn-more:hover {
+    color: #333;
+}

@@ -1,0 +1,96 @@
+
+.footer {
+    background-color: #1d1d1d;
+    color: #96a297;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: url(../images/portfolio-image.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5; 
+}
+
+.footer-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+.footer-line1,
+.footer-line2,
+.footer-line3 {
+    flex: 1;
+    min-width: 300px;
+    max-width: 350px;
+    text-align: center;
+}
+.footer-line1 p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #96a297;
+    text-align: start;
+}
+
+.social-links a {
+    color: #96a297;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ffffff;
+}
+
+.footer-line2 h3,
+.footer-line3 h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.footer-line2 ul,
+.footer-line3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-line2 ul li,
+.footer-line3 ul li {
+    margin-bottom: 8px;
+}
+
+.footer-line2 ul li a,
+.footer-line3 ul li a {
+    color: #96a297;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.footer-line2 ul li a:hover,
+.footer-line3 ul li a:hover {
+    color: #ffffff;
+}
+
+.copy {
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 10px 0;
+    width: 100%;
+}

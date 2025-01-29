@@ -1,0 +1,93 @@
+
+
+
+.contact-section {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.contact-info h2 {
+    margin-top: 0;
+    color: rgb(1, 255, 242);
+    font-size: 90px;
+    letter-spacing: 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+.contact-info p {
+    margin-top: -60px;
+    width: 500px;
+    font-size: 18px;
+    color: #96a297;
+}
+
+.contact-info .contact-form {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+}
+
+.contact-info .contact-form .form-line {
+    gap: 10px;
+    display: flex;
+}
+
+.contact-info .contact-form .form-line input {
+    width: 250px;
+    height: 50px;
+    background-color: #2b2b2b;
+    border: none;
+    outline: none;
+    color: #96a297;
+}
+
+.contact-info .contact-form input, 
+.contact-info .contact-form textarea {
+    height: 50px;
+    background-color: #2b2b2b;
+    border: none;
+    width: 500px;
+    margin-bottom: 10px;
+    color: #96a297;
+    outline: none;
+}
+
+.contact-info .contact-form textarea {
+    height: 100px;
+}
+
+.contact-info button {
+    display: block;
+    margin-left: auto;
+    font-weight: 700;
+    height: 40px;
+    width: 150px;
+    padding: 10px;
+    color: rgb(1, 255, 242);
+    border: 2px solid rgb(1, 255, 242);
+    background-color: #1d1d1d;
+    background-position: left top;
+    background: linear-gradient(135deg, #1d1d1d 50%, rgb(1, 255, 242) 50%);
+    background-size: 200% 100%;
+    font-size: 16px;
+}
+
+.contact-info button:hover {
+    background-color: rgb(1, 255, 242);
+    color: #1d1d1d;
+    transition: 0.5s ease-in-out;
+    background-position: right bottom;
+    cursor: pointer;
+}
+
+.map-location {
+    width: 50%;
+}
